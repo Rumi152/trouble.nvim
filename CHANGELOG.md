@@ -1,5 +1,27 @@
 # Changelog
 
+## [3.5.1](https://github.com/folke/trouble.nvim/compare/v3.5.0...v3.5.1) (2024-07-04)
+
+
+### Bug Fixes
+
+* **command:** weird issue with number keys. no idea when this happens. oh well... Fixes [#528](https://github.com/folke/trouble.nvim/issues/528) ([95568c6](https://github.com/folke/trouble.nvim/commit/95568c61416ff3dea2b6177deeb8a51130d6fd7a))
+* **diagnostics:** ruff generates a `vim.NIL` diag code. Closes [#527](https://github.com/folke/trouble.nvim/issues/527) ([edd9684](https://github.com/folke/trouble.nvim/commit/edd9684089b19684d5dad90bd5fcfceb48719212))
+* **lsp:** use caller text for call locations in incoming lsp calls. Fixes [#529](https://github.com/folke/trouble.nvim/issues/529) ([12dc19a](https://github.com/folke/trouble.nvim/commit/12dc19a8aba6f964fc6c4060649782a2e57de0cf))
+
+## [3.5.0](https://github.com/folke/trouble.nvim/compare/v3.4.3...v3.5.0) (2024-07-04)
+
+
+### Features
+
+* added explicit support for mini.icons ([42dcb58](https://github.com/folke/trouble.nvim/commit/42dcb58e95723f833135d5cf406c38bd54304389))
+
+
+### Bug Fixes
+
+* **telescope:** item path. Fixes [#521](https://github.com/folke/trouble.nvim/issues/521) ([6e19371](https://github.com/folke/trouble.nvim/commit/6e1937138b2c292ac0d3e8d9bfc36a29a515a380))
+* **telescope:** use (lnum, 0) for telescope item without col ([#524](https://github.com/folke/trouble.nvim/issues/524)) ([25204b7](https://github.com/folke/trouble.nvim/commit/25204b7e134005dfcb694a0b6d227c98ce3ad164))
+
 ## [3.4.3](https://github.com/folke/trouble.nvim/compare/v3.4.2...v3.4.3) (2024-06-23)
 
 
